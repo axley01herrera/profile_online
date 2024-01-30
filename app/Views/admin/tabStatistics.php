@@ -95,7 +95,7 @@
             [10, 25, 50, 100]
         ],
         language: {
-            url: '<?php echo base_url('public/assets/datatable/es.json'); ?>'
+            url: '<?php echo base_url('public/assetsv2/datatable/es.json'); ?>'
         },
         ajax: {
             url: "<?php echo base_url('Admin/dtProcessingHistory'); ?>",

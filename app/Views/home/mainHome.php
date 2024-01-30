@@ -1,6 +1,6 @@
 <?php
 if (empty($config->avatar))
-    $urlImage = 'background-image: url(' . base_url('public/assets/media/logos/default.png') . ')';
+    $urlImage = 'background-image: url(' . base_url('public/assetsv2/media/logos/default.png') . ')';
 else
     $urlImage = 'background-image: url(data:image/png;base64,' . base64_encode($config->avatar) . ')';
 ?>

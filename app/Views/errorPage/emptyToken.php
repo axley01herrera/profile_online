@@ -8,15 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="canonical" href="https://keenthemes.com/metronic" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
-    <link href="<?php echo base_url('public/assets/plugins/global/plugins.bundle.css'); ?>" rel="stylesheet" type="text/css" />
-    <link href="<?php echo base_url('public/assets/plugins/custom/prismjs/prismjs.bundle.css'); ?>" rel="stylesheet" type="text/css" />
-    <link href="<?php echo base_url('public/assets/css/style.bundle.css'); ?>" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" href="<?php echo base_url('public/assets/media/logos/favicon.ico'); ?>" />
+    <link href="<?php echo base_url('public/assetsv2/plugins/global/plugins.bundle.css'); ?>" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url('public/assetsv2/plugins/custom/prismjs/prismjs.bundle.css'); ?>" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url('public/assetsv2/css/style.bundle.css'); ?>" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="<?php echo base_url('public/assetsv2/media/logos/favicon.ico'); ?>" />
 </head>
 
 <body id="kt_body" class="header-fixed header-mobile-fixed subheader-enabled page-loading">
     <div class="d-flex flex-column flex-root">
-        <div class="d-flex flex-row-fluid flex-column bgi-size-cover bgi-position-center bgi-no-repeat p-10 p-sm-30" style="background-image: url(<?php echo base_url('public/assets/media/error/bg1.jpg'); ?>);">
+        <div class="d-flex flex-row-fluid flex-column bgi-size-cover bgi-position-center bgi-no-repeat p-10 p-sm-30" style="background-image: url(<?php echo base_url('public/assetsv2/media/error/bg1.jpg'); ?>);">
             <h1 class="font-weight-boldest text-dark-75 mt-15" style="font-size: 10rem">404</h1>
             <p class="font-size-h3 text-muted font-weight-normal">OOPS! Algo ha salido mal</p>
         </div>
@@ -84,8 +84,8 @@
             "font-family": "Poppins"
         };
     </script>
-    <script src="<?php echo base_url('public/assets/plugins/global/plugins.bundle.js'); ?>"></script>
-    <script src="<?php echo base_url('public/assets/plugins/custom/prismjs/prismjs.bundle.js'); ?>"></script>
-    <script src="<?php echo base_url('public/assets/js/scripts.bundle.js'); ?>"></script>
+    <script src="<?php echo base_url('public/assetsv2/plugins/global/plugins.bundle.js'); ?>"></script>
+    <script src="<?php echo base_url('public/assetsv2/plugins/custom/prismjs/prismjs.bundle.js'); ?>"></script>
+    <script src="<?php echo base_url('public/assetsv2/js/scripts.bundle.js'); ?>"></script>
 </body>
 </html>

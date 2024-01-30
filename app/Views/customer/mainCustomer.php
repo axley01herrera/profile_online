@@ -32,7 +32,7 @@
                     </div>
                     <div class="d-flex align-items-center">
                         <div class="symbol symbol-60 symbol-xxl-100 mr-5 align-self-start align-self-xxl-center">
-                            <div class="symbol-label" style="background-image:url('<?php echo base_url('public/assets/media/users/default.jpg'); ?>')"></div>
+                            <div class="symbol-label" style="background-image:url('<?php echo base_url('public/assetsv2/media/users/default.jpg'); ?>')"></div>
                             <i class="symbol-badge bg-success"></i>
                         </div>
                         <div>

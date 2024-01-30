@@ -9,16 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- App Icon -->
-    <link href="<?php echo base_url('public/assets/media/logos/favicon.ico'); ?>" rel="shortcut icon" />
+    <link href="<?php echo base_url('public/assetsv2/media/logos/favicon.ico'); ?>" rel="shortcut icon" />
 
     <!-- Global CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
-    <link href="<?php echo base_url('public/assets/plugins/global/plugins.bundle.css'); ?>" rel="stylesheet" type="text/css" />
-    <link href="<?php echo base_url('public/assets/plugins/custom/prismjs/prismjs.bundle.css'); ?>" rel="stylesheet" type="text/css" />
-    <link href="<?php echo base_url('public/assets/css/style.bundle.css'); ?>" rel="stylesheet" type="text/css" />
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url('public/assets/datatable/dataTables.bootstrap5.min.css'); ?>" />
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url('public/assets/timepicker/timepicker.css'); ?>" />
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url('public/assets/apexcharts/dist/apexcharts.css'); ?>" />
+    <link href="<?php echo base_url('public/assetsv2/plugins/global/plugins.bundle.css'); ?>" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url('public/assetsv2/plugins/custom/prismjs/prismjs.bundle.css'); ?>" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url('public/assetsv2/css/style.bundle.css'); ?>" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url('public/assetsv2/datatable/dataTables.bootstrap5.min.css'); ?>" />
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url('public/assetsv2/timepicker/timepicker.css'); ?>" />
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url('public/assetsv2/apexcharts/dist/apexcharts.css'); ?>" />
     
     <style>
         @media print {
@@ -97,15 +97,15 @@
             "font-family": "Poppins"
         };
     </script>
-    <script src="<?php echo base_url('public/assets/plugins/global/plugins.bundle.js'); ?>"></script>
-    <script src="<?php echo base_url('public/assets/plugins/custom/prismjs/prismjs.bundle.js'); ?>"></script>
-    <script src="<?php echo base_url('public/assets/js/scripts.bundle.js'); ?>"></script>
-    <script src='<?php echo base_url('public/assets/fullcalendar/dist/index.global.js'); ?>'></script>
-    <script src='<?php echo base_url('public/assets/fullcalendar/packages/core/locales/es.global.js'); ?>'></script>
-    <script src="<?php echo base_url('public/assets/datatable/jquery.dataTables.min.js'); ?>"></script>
-    <script src="<?php echo base_url('public/assets/datatable/dataTables.bootstrap5.min.js'); ?>"></script>
-    <script src="<?php echo base_url('public/assets/timepicker/timepicker.js'); ?>"></script>
-    <script src="<?php echo base_url('public/assets/apexcharts/dist/apexcharts.min.js'); ?>"></script>
+    <script src="<?php echo base_url('public/assetsv2/plugins/global/plugins.bundle.js'); ?>"></script>
+    <script src="<?php echo base_url('public/assetsv2/plugins/custom/prismjs/prismjs.bundle.js'); ?>"></script>
+    <script src="<?php echo base_url('public/assetsv2/js/scripts.bundle.js'); ?>"></script>
+    <script src='<?php echo base_url('public/assetsv2/fullcalendar/dist/index.global.js'); ?>'></script>
+    <script src='<?php echo base_url('public/assetsv2/fullcalendar/packages/core/locales/es.global.js'); ?>'></script>
+    <script src="<?php echo base_url('public/assetsv2/datatable/jquery.dataTables.min.js'); ?>"></script>
+    <script src="<?php echo base_url('public/assetsv2/datatable/dataTables.bootstrap5.min.js'); ?>"></script>
+    <script src="<?php echo base_url('public/assetsv2/timepicker/timepicker.js'); ?>"></script>
+    <script src="<?php echo base_url('public/assetsv2/apexcharts/dist/apexcharts.min.js'); ?>"></script>
 </head>
 
 <body style="background-color: #181c32;">

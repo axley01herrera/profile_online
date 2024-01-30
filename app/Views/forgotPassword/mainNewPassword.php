@@ -1,11 +1,11 @@
 <?php
 if (empty($config->avatar))
-    $urlImage = 'background-image: url("' . base_url('public/assets/media/users/blank.png') . '")';
+    $urlImage = 'background-image: url("' . base_url('public/assetsv2/media/users/blank.png') . '")';
 else
     $urlImage = 'background-image: url(data:image/png;base64,' . base64_encode($config->avatar) . ')';
 ?>
-<link href="<?php echo base_url('public/assets/css/pages/login/classic/login-4.css'); ?>" rel="stylesheet" type="text/css" />
-<script src="<?php echo base_url('public/assets/js/pages/custom/login/login-general.js'); ?>"></script>
+<link href="<?php echo base_url('public/assetsv2/css/pages/login/classic/login-4.css'); ?>" rel="stylesheet" type="text/css" />
+<script src="<?php echo base_url('public/assetsv2/js/pages/custom/login/login-general.js'); ?>"></script>
 <div class="d-flex flex-column flex-root">
     <div class="login login-4 login-signin-on d-flex flex-row-fluid" id="kt_login">
         <div class="d-flex flex-center flex-row-fluid bgi-size-cover bgi-position-top bgi-no-repeat">

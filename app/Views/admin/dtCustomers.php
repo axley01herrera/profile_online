@@ -58,7 +58,7 @@
             [10, 25, 50, 100, 'Todos']
         ],
         language: {
-            url: '<?php echo base_url('public/assets/datatable/es.json'); ?>'
+            url: '<?php echo base_url('public/assetsv2/datatable/es.json'); ?>'
         },
     });
 
