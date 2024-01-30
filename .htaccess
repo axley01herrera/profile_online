@@ -1,21 +1,25 @@
-<IfModule mod_headers.c>
-    Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
-    Header set Pragma "no-cache"
-    Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # Expire after 1 week for CSS and JavaScript
+    ExpiresByType text/css "access plus 1 minute"
+    ExpiresByType application/x-javascript "access plus 1 minute"
+    ExpiresByType application/javascript "access plus 1 minute"
+
+    # Expire after 1 month for images (GIF, PNG, JPEG)
+    ExpiresByType image/gif "access plus 1 minute"
+    ExpiresByType image/png "access plus 1 minute"
+    ExpiresByType image/jpeg "access plus 1 minute"
+
+    # Expire after 1 year for favicon
+    ExpiresByType application/x-icon "access plus 1 minute"
+
+    # Default expiration after 10 days
+    ExpiresDefault "access plus 10 minutes"
 </IfModule>
 
-<FilesMatch "\.(css|js)$">
-    FileETag None
-    <IfModule mod_headers.c>
-        Header unset ETag
-        Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
-        Header set Pragma "no-cache"
-        Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
-    </IfModule>
-</FilesMatch>
-
 <IfModule mod_rewrite.c>
-	RewriteEngine On
+    RewriteEngine On
     RewriteCond %{HTTP_HOST} ^www\.negociocitas\.online [NC]
     RewriteRule ^(.*)$ https://negociocitas.online/$1 [L,R=301]
     RewriteCond %{HTTPS} ==on
