@@ -74,7 +74,7 @@ class Customer extends BaseController
 
         $customerID = $this->objSession->get('user')->id;
         $date = $this->objRequest->getPost('date');
-        $getEvents = $this->objMainModel->getEvents($customerID, $date);
+        $getEvents = $this->objMainModel->getEvents($date, $customerID);
 
         $data = array();
         $data['events'] = $getEvents;

@@ -270,7 +270,7 @@ class Admin extends BaseController
             $hiddenDays[] = 0;
 
         $date = $this->objRequest->getPost('date');
-        $getEvents = $this->objMainModel->getEvents('', $date);
+        $getEvents = $this->objMainModel->getEvents($date, null);
 
         $data = array();
         $data['events'] = $getEvents;

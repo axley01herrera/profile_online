@@ -164,7 +164,7 @@ class MainModel extends Model
         return $result;
     }
 
-    public function getEvents($customerID = null, $date)
+    public function getEvents($date, $customerID = null)
     {
         $start = date('Y-m-d', strtotime($date . "-90 days"));
         $end = date('Y-m-d', strtotime($date . "+90 days"));
