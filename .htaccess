@@ -1,7 +1,7 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteCond %{HTTP_HOST} ^www\.negociocitas\.online [NC]
-    RewriteRule ^(.*)$ https://negociocitas.online/$1 [L,R=301]
+    RewriteCond %{HTTP_HOST} ^www\.profileonline.axleyherrera\.com [NC]
+    RewriteRule ^(.*)$ https://profileonline.axleyherrera.com/$1 [L,R=301]
     RewriteCond %{HTTPS} ==on
     RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
     RewriteRule ^ %1 [L,NE,R=302]
